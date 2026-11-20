@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<script id="ts-head">(function(){try{var r=document.documentElement,m=localStorage.getItem("ad-theme");if(m!=="light"&&m!=="dark"){m=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}r.setAttribute("data-theme",m);var v=localStorage.getItem("ad-variant:"+location.pathname);if(v)r.setAttribute("data-variant",v)}catch(e){}})();</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>わたりどり プライバシーポリシー</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Zen+Kaku+Gothic+New:wght@700&display=swap" rel="stylesheet">
+<style>
+/* 方針: 両替所のレート表のように、まず「集めない」ことを表で示し、細部を2段で続ける */
+:root{
+  --bg:#f3f7f7; --surface:#ffffff; --text:#172426; --muted:#536669; --line:#cfdcde; --accent:#0f6b78;
+  --display:"Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",sans-serif;
+  --body:"BIZ UDPGothic","Hiragino Sans","Yu Gothic",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  color-scheme:dark; --bg:#101a1c; --surface:#18262a; --text:#e6f0f1; --muted:#a3b6b9; --line:#30454a; --accent:#62c6d4;
+}}
+:root[data-theme="dark"]{color-scheme:dark; --bg:#101a1c; --surface:#18262a; --text:#e6f0f1; --muted:#a3b6b9; --line:#30454a; --accent:#62c6d4;}
+:root:not([data-theme="dark"])[data-variant="green"]{--bg:#f2f8f4;--surface:#fff;--line:#cde0d4;--accent:#1f7a4d;}
+:root[data-theme="dark"][data-variant="green"]{--bg:#101b15;--surface:#18281f;--line:#2f4a3a;--accent:#6fcf9b;}
+:root:not([data-theme="dark"])[data-variant="purple"]{--bg:#f6f4fb;--surface:#fff;--line:#dcd5ec;--accent:#6d45b0;}
+:root[data-theme="dark"][data-variant="purple"]{--bg:#16131f;--surface:#211c2e;--line:#40375a;--accent:#b89cf0;}
+:root:not([data-theme="dark"])[data-variant="orange"]{--bg:#faf5f0;--surface:#fff;--line:#ebdccd;--accent:#b4530f;}
+:root[data-theme="dark"][data-variant="orange"]{--bg:#1d1610;--surface:#2a2018;--line:#4d3b2c;--accent:#f0a062;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--body);font-size:1rem;line-height:1.8}
+main{max-width:1500px;margin-inline:auto;padding:3.5rem 24px 3rem;display:grid;gap:2rem}
+h1,h2{font-family:var(--display);text-wrap:balance;line-height:1.35;margin:0}
+h1{font-size:2rem;padding-right:9rem}
+h2{font-size:1.2rem;color:var(--accent)}
+p,ul{margin:0}
+ul{padding-left:1.25em}
+.lead{color:var(--muted);margin-top:.5rem}
+.wrap{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:.5rem}
+table{width:100%;border-collapse:collapse}
+th,td{padding:.8rem 1.1rem;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child th,tr:last-child td{border-bottom:0}
+th{font-weight:700;white-space:nowrap}
+td.v{font-weight:700;color:var(--accent);white-space:nowrap}
+.cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem 3rem}
+section{display:grid;gap:.5rem;align-content:start}
+a{color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.todo{background:color-mix(in srgb,var(--accent) 14%,transparent);padding:.1em .4em;border-radius:.25rem;font-weight:700}
+#en{display:grid;gap:2rem;border-top:1px solid var(--line);padding-top:2.5rem;font-family:-apple-system,"Helvetica Neue",Arial,var(--body)}
+footer{color:var(--muted);border-top:1px solid var(--line);padding-top:1rem;font-size:.9rem}
+@media (max-width:760px){.cols{grid-template-columns:1fr}main{padding:2rem 16px 5rem}h1{font-size:1.6rem;padding-right:0}th{white-space:normal}}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <h1>わたりどり プライバシーポリシー</h1>
+  <p class="lead">このゲームは、あなたの情報を集めません。記録や設定は、あなたの iPhone の中だけに保存します。</p>
+</header>
+<div class="wrap"><table>
+  <thead><tr><th scope="col">項目</th><th scope="col">扱い</th><th scope="col">内容</th></tr></thead>
+  <tbody>
+    <tr><th scope="row">個人情報の収集</th><td class="v">なし</td><td>氏名、メールアドレス、位置情報などを求めません。アカウント登録もありません。</td></tr>
+    <tr><th scope="row">通信</th><td class="v">なし</td><td>ゲームに通信は使いません。ランキングなどのオンライン機能もありません。</td></tr>
+    <tr><th scope="row">広告・行動の追跡</th><td class="v">なし</td><td>広告を表示せず、利用状況の分析ツールも組み込んでいません。</td></tr>
+    <tr><th scope="row">第三者への提供</th><td class="v">なし</td><td>開発者は記録を受け取らないため、第三者へ渡すこともありません。</td></tr>
+  </tbody>
+</table></div>
+<div class="cols">
+  <section>
+    <h2>iPhone に保存する内容</h2>
+    <ul>
+      <li>飛んだ距離と高さの最高記録</li>
+      <li>旅人レベルとミッションの進み具合</li>
+      <li>「★と空の気流」の量の設定</li>
+    </ul>
+    <p>アプリを削除すると、これらも iPhone から消えます。iCloud や Mac への iPhone のバックアップを使っている場合は、バックアップに含まれることがあります。バックアップの管理は Apple とご利用者の設定によります。</p>
+  </section>
+  <section id="support">
+    <h2>遊び方とお問い合わせ</h2>
+    <ul>
+      <li>画面をタップすると、鳥が跳ねるように飛び立ち、そのあと滑空します。</li>
+      <li>空に浮かぶ★を取ると、もう一度跳ねられます。★をつないで高く上がり、遠くまで飛びましょう。</li>
+      <li>音は消音スイッチがオンのときは鳴りません。</li>
+    </ul>
+    <p>お問い合わせ: <a href="https://github.com/kt004/wataridori/issues">GitHub の Issues</a> に書いてください（GitHub のアカウントが必要です）。</p>
+  </section>
+  <section>
+    <h2>このポリシーの変更</h2>
+    <p>ゲームの機能が変わり、情報の扱いが変わるときは、このページを更新します。</p>
+  </section>
+</div>
+<footer>制定日: 2026年11月18日</footer>
+</main>
+<!-- ts:start -->
+<style id="ts-style">
+.ts-bar{position:fixed;top:.75rem;right:.75rem;z-index:1000;display:flex;align-items:center;gap:.375rem;padding:.3125rem .5rem;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);box-shadow:0 .25rem 1rem rgba(0,0,0,.12)}
+.ts-btn{display:inline-grid;place-items:center;width:1.75rem;height:1.75rem;padding:0;border:0;border-radius:50%;background:transparent;color:var(--text);cursor:pointer}
+.ts-btn:hover{background:color-mix(in srgb,var(--text) 10%,transparent)}
+.ts-btn svg{width:1.125rem;height:1.125rem}
+.ts-sep{width:1px;height:1.125rem;background:var(--line)}
+.ts-sw{width:1.125rem;height:1.125rem;padding:0;border:2px solid var(--surface);border-radius:50%;cursor:pointer;box-shadow:0 0 0 1px var(--line)}
+.ts-sw[aria-pressed="true"]{box-shadow:0 0 0 2px var(--text)}
+.ts-btn:focus-visible,.ts-sw:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (max-width:480px){.ts-bar{top:auto;bottom:.75rem}}
+@media print{.ts-bar{display:none}}
+</style>
+<div class="ts-bar" role="toolbar" aria-label="表示の切り替え">
+  <button type="button" class="ts-btn" id="ts-mode"></button>
+  <span class="ts-sep" aria-hidden="true"></span>
+  <span id="ts-variants" style="display:flex;gap:.375rem"></span>
+</div>
+<script id="ts-script">
+(function(){
+  /* ▼ページに合わせて書き換える。先頭が標準（ページ本来の配色、id は "base"）。3〜5 個。
+     color はスウォッチ（色見本）に塗る代表色、name は title・aria-label に出す名前。 */
+  var VARIANTS = [
+    {id:"base",  name:"標準",   color:"#0f6b78"},
+    {id:"green", name:"グリーン", color:"#1f7a4d"},
+    {id:"purple",name:"パープル", color:"#6d45b0"},
+    {id:"orange",name:"オレンジ", color:"#b4530f"}
+  ];
+  /* ▲ここまで */
+  var r=document.documentElement, mq=matchMedia("(prefers-color-scheme: dark)");
+  var key="ad-variant:"+location.pathname;
+  var SUN='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>';
+  var MOON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg>';
+  function store(k,v){try{v==null?localStorage.removeItem(k):localStorage.setItem(k,v)}catch(e){}}
+  function saved(k){try{return localStorage.getItem(k)}catch(e){return null}}
+  var btn=document.getElementById("ts-mode");
+  function paintMode(){
+    var dark=r.getAttribute("data-theme")==="dark";
+    btn.innerHTML=dark?SUN:MOON;
+    var label=dark?"ライトモードに切り替え":"ダークモードに切り替え";
+    btn.title=label; btn.setAttribute("aria-label",label);
+  }
+  btn.addEventListener("click",function(){
+    var next=r.getAttribute("data-theme")==="dark"?"light":"dark";
+    r.setAttribute("data-theme",next); store("ad-theme",next); paintMode();
+  });
+  mq.addEventListener("change",function(e){
+    if(saved("ad-theme"))return;
+    r.setAttribute("data-theme",e.matches?"dark":"light"); paintMode();
+  });
+  var box=document.getElementById("ts-variants"), ids=VARIANTS.map(function(v){return v.id});
+  if(ids.indexOf(r.getAttribute("data-variant"))<1){r.removeAttribute("data-variant")}
+  function paintVariants(){
+    var cur=r.getAttribute("data-variant")||"base";
+    Array.prototype.forEach.call(box.children,function(b){b.setAttribute("aria-pressed",String(b.dataset.id===cur))});
+  }
+  VARIANTS.forEach(function(v){
+    var b=document.createElement("button");
+    b.type="button"; b.className="ts-sw"; b.dataset.id=v.id; b.id="ts-sw-"+v.id;
+    b.style.background=v.color;
+    b.title="配色: "+v.name; b.setAttribute("aria-label","配色を「"+v.name+"」にする");
+    b.addEventListener("click",function(){
+      if(v.id==="base"){r.removeAttribute("data-variant");store(key,null)}
+      else{r.setAttribute("data-variant",v.id);store(key,v.id)}
+      paintVariants();
+    });
+    box.appendChild(b);
+  });
+  paintMode(); paintVariants();
+})();
+</script>
+<!-- ts:end -->
+</body>
+</html>
